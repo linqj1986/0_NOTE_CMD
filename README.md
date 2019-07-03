@@ -1,5 +1,6 @@
 # 0_NOTE_CMD
 
+#================================================
 
 ##ios
 ```
@@ -28,6 +29,8 @@ ldid -S xxx.dylib
 
 6.打包ipa包
 zip -q -r ddy.ipa Payload
+
+7.
 ```
 
 #================================================
@@ -53,9 +56,17 @@ Git branch 0.0.1
 5.删除目录
 Git rm xx/xx -r
 
-github操作
-git remote add origin https://github.com/linqj1986/JALTweakWX.git
-git push -u origin master
+6.github操作
+a.github上创建项目,复制https://github.com/linqj1986/0_NOTE_CMD.git
+b.终端下载目录git clone https://github.com/linqj1986/0_NOTE_CMD.git
+c.开始修改
+d.git add --a
+e.提交git commit -m "提交时的备注"
+f.git push -u origin master
+
+
+7.更新远程到本地
+git fetch orgin master
 ```
 
 #==================================================
