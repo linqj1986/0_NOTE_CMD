@@ -2,7 +2,7 @@
 
 
 #ios
-'''
+```
 1.砸壳
 su
 chmod 777 dump.py
@@ -28,12 +28,12 @@ ldid -S xxx.dylib
 
 6.打包ipa包
 zip -q -r ddy.ipa Payload
-'''
+```
 
-================================================
-#git
+#================================================
+##git
 
-'''
+```
 1.查看状态
 git status
 如果路径不对则更换路径
@@ -55,11 +55,11 @@ Git rm xx/xx -r
 github操作
 git remote add origin https://github.com/linqj1986/JALTweakWX.git
 git push -u origin master
-'''
+```
 
-==================================================
-#pod
-'''
+#==================================================
+##pod
+```
 1.创建podspec文件
 pod spec create JALCommunityPage
 pod lib lint
@@ -70,5 +70,5 @@ pod repo lint
 
 3.提交到pod
 pod repo push JALCommunityPage JALCommunityPage.podspec
-'''
+```
 
